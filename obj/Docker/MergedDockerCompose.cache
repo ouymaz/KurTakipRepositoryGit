@@ -1,0 +1,41 @@
+services:
+  businesslayer:
+    build:
+      context: C:\Users\OGUZHAN\source\repos\KurTakipProjesi
+      dockerfile: BusinessApi\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: businesslayer
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\OGUZHAN\AppData\Roaming\ASP.NET\Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
+  datalayer:
+    build:
+      context: C:\Users\OGUZHAN\source\repos\KurTakipProjesi
+      dockerfile: ApiLayer3\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: datalayer
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\OGUZHAN\AppData\Roaming\ASP.NET\Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
+  kurtakipprojesi:
+    build:
+      context: C:\Users\OGUZHAN\source\repos\KurTakipProjesi
+      dockerfile: KurTakipProjesi\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: kurtakipprojesi
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\OGUZHAN\AppData\Roaming\ASP.NET\Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
+version: '3.4'

@@ -1,0 +1,10 @@
+C:\Users\OGUZHAN\source\repos\KurTakipProjesi\DataApi\bin\Debug\netcoreapp3.1\DataApi.deps.json
+C:\Users\OGUZHAN\source\repos\KurTakipProjesi\DataApi\bin\Debug\netcoreapp3.1\DataApi.dll
+C:\Users\OGUZHAN\source\repos\KurTakipProjesi\DataApi\bin\Debug\netcoreapp3.1\DataApi.pdb
+C:\Users\OGUZHAN\source\repos\KurTakipProjesi\DataApi\obj\Debug\netcoreapp3.1\DataApi.csproj.AssemblyReference.cache
+C:\Users\OGUZHAN\source\repos\KurTakipProjesi\DataApi\obj\Debug\netcoreapp3.1\DataApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OGUZHAN\source\repos\KurTakipProjesi\DataApi\obj\Debug\netcoreapp3.1\DataApi.AssemblyInfoInputs.cache
+C:\Users\OGUZHAN\source\repos\KurTakipProjesi\DataApi\obj\Debug\netcoreapp3.1\DataApi.AssemblyInfo.cs
+C:\Users\OGUZHAN\source\repos\KurTakipProjesi\DataApi\obj\Debug\netcoreapp3.1\DataApi.csproj.CoreCompileInputs.cache
+C:\Users\OGUZHAN\source\repos\KurTakipProjesi\DataApi\obj\Debug\netcoreapp3.1\DataApi.dll
+C:\Users\OGUZHAN\source\repos\KurTakipProjesi\DataApi\obj\Debug\netcoreapp3.1\DataApi.pdb

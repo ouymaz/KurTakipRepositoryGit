@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  kurtakipprojesi:
+    image: ${DOCKER_REGISTRY-}kurtakipprojesi
+    build:
+      context: .
+      dockerfile: KurTakipProjesi\Dockerfile
+
+  businesslayer:
+    image: ${DOCKER_REGISTRY-}businesslayer
+    build:
+      context: .
+      dockerfile: BusinessApi\Dockerfile
+
+
+  datalayer:
+    image: ${DOCKER_REGISTRY-}datalayer
+    build:
+      context: .
+      dockerfile: ApiLayer3\Dockerfile
+

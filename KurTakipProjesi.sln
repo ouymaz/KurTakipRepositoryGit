@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KurTakipProjesi", "KurTakipProjesi\KurTakipProjesi.csproj", "{4E0BB9E3-F1AA-404A-A35B-752C408C3AE1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityLayer", "EntityLayer\EntityLayer.csproj", "{7BF3CA39-87C1-4B01-B2DD-13FBE5752CE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{49C7C372-302B-43C5-A45E-059BC6EAAADE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataApi", "DataApi\DataApi.csproj", "{B17AC9D8-F256-415F-8584-747572AF4FF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLayer", "ApiLayer3\DataLayer.csproj", "{FEF859DC-F22A-463B-AAED-5CCE82CB8576}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLayer", "BusinessApi\BusinessLayer.csproj", "{85DE833A-3B67-4611-8C52-719915ED686B}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{97C101D3-7B3C-48B4-847B-3AD88E38B977}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E0BB9E3-F1AA-404A-A35B-752C408C3AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E0BB9E3-F1AA-404A-A35B-752C408C3AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E0BB9E3-F1AA-404A-A35B-752C408C3AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E0BB9E3-F1AA-404A-A35B-752C408C3AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BF3CA39-87C1-4B01-B2DD-13FBE5752CE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF3CA39-87C1-4B01-B2DD-13FBE5752CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF3CA39-87C1-4B01-B2DD-13FBE5752CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF3CA39-87C1-4B01-B2DD-13FBE5752CE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C7C372-302B-43C5-A45E-059BC6EAAADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C7C372-302B-43C5-A45E-059BC6EAAADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C7C372-302B-43C5-A45E-059BC6EAAADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C7C372-302B-43C5-A45E-059BC6EAAADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B17AC9D8-F256-415F-8584-747572AF4FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B17AC9D8-F256-415F-8584-747572AF4FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B17AC9D8-F256-415F-8584-747572AF4FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B17AC9D8-F256-415F-8584-747572AF4FF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEF859DC-F22A-463B-AAED-5CCE82CB8576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF859DC-F22A-463B-AAED-5CCE82CB8576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF859DC-F22A-463B-AAED-5CCE82CB8576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF859DC-F22A-463B-AAED-5CCE82CB8576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85DE833A-3B67-4611-8C52-719915ED686B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85DE833A-3B67-4611-8C52-719915ED686B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85DE833A-3B67-4611-8C52-719915ED686B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85DE833A-3B67-4611-8C52-719915ED686B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97C101D3-7B3C-48B4-847B-3AD88E38B977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C101D3-7B3C-48B4-847B-3AD88E38B977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C101D3-7B3C-48B4-847B-3AD88E38B977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C101D3-7B3C-48B4-847B-3AD88E38B977}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {867B81E6-EE12-46C4-A992-893D2D9E1C98}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://azuredevops19.ktun.edu.tr/testcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DataAccessLayer\\DataAccessLayer.csproj
+		SccProjectName1 = DataAccessLayer
+		SccLocalPath1 = DataAccessLayer
+		SccProjectUniqueName2 = DataApi\\DataApi.csproj
+		SccProjectName2 = DataApi
+		SccLocalPath2 = DataApi
+		SccProjectUniqueName3 = EntityLayer\\EntityLayer.csproj
+		SccProjectName3 = EntityLayer
+		SccLocalPath3 = EntityLayer
+		SccProjectUniqueName4 = KurTakipProjesi\\KurTakipProjesi.csproj
+		SccProjectName4 = KurTakipProjesi
+		SccLocalPath4 = KurTakipProjesi
+		SccProjectUniqueName5 = ApiLayer3\\DataLayer.csproj
+		SccProjectName5 = ApiLayer3
+		SccLocalPath5 = ApiLayer3
+		SccProjectUniqueName6 = BusinessApi\\BusinessLayer.csproj
+		SccProjectName6 = BusinessApi
+		SccLocalPath6 = BusinessApi
+	EndGlobalSection
+EndGlobal
