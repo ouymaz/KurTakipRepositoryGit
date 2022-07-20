@@ -16,7 +16,7 @@ namespace BusinessApi.Controllers
     [Route("api/[controller]")]
     [Route("api/[controller]/[action]")]
     [ApiController]
-    public class BusinessController : ControllerBase
+    public class BusinessController : ControllerBase 
     {
         private readonly ILogger<BusinessController> _logger;
         //private readonly IDistributedCache _distributedCache;
